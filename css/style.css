@@ -1,5 +1,4 @@
 
-            /* GENERAL SETTINGS */
             * {
                 margin: 0;
                 padding: 0;
@@ -14,7 +13,6 @@
                 line-height: 1.6;
             }
 
-            /* NAVIGATION */
             header {
                 background: rgba(30, 33, 48, 0.97);
                 border-bottom: 1px solid #A855F7;
@@ -77,7 +75,6 @@
                 padding-bottom: 7px;
             }
 
-            /* COMMON TEXT */
             .small-heading {
                 color: #38BDF8;
                 font-size: 13px;
@@ -136,7 +133,6 @@
                 margin-bottom: 25px;
             }
 
-            /* BUTTONS */
             .hero-buttons {
                 display: flex;
                 justify-content: center;
@@ -168,7 +164,6 @@
                 transform: translateY(-4px);
             }
 
-            /* QUICK LINKS */
             .quick-section {
                 max-width: 1200px;
                 margin: auto;
@@ -180,8 +175,6 @@
                 font-size: 32px;
             }
 
-
-            /* ABOUT SECTION */
             .about-section {
                 padding: 75px 25px;
                 background: #272B3F;
@@ -216,7 +209,6 @@
                 border: 2px solid #A855F7;
             }
 
-            /* GENERAL HIGHLIGHTS */
             .highlights {
                 padding: 80px 20px;
                 text-align: center;
@@ -234,7 +226,6 @@
                 margin: auto;
             }
 
-            /* OFFICERS HERO */
             .officers-hero,
             .page-hero {
                 padding: 85px 20px;
@@ -259,7 +250,6 @@
                 margin: auto;
             }
 
-            /* OFFICERS HORIZONTAL FLEX */
             .officers-section {
                 padding: 70px 5%;
                 max-width: 1300px;
@@ -289,7 +279,6 @@
                 white-space: nowrap;
             }
 
-            /* HORIZONTAL SCROLLING CONTAINER */
             .officers-container {
                 display: flex;
                 flex-direction: row;
@@ -302,7 +291,6 @@
                 scroll-snap-type: x proximity;
             }
 
-            /* SCROLLBAR DESIGN */
             .officers-container::-webkit-scrollbar {
                 height: 10px;
             }
@@ -321,7 +309,6 @@
                 background: #D8B4FE;
             }
 
-            /* OFFICER CARDS */
             .officer-card {
                 flex: 0 0 260px;
                 width: 260px;
@@ -342,7 +329,6 @@
                 box-shadow: 0 0 20px rgba(56,189,248,.2);
             }
 
-            /* OFFICER IMAGES */
             .officer-image {
                 width: 150px;
                 height: 150px;
@@ -384,7 +370,6 @@
                 margin-top: 15px;
             }
 
-            /* LEADERSHIP MESSAGE */
             .leadership-message {
                 text-align: center;
                 padding: 75px 20px;
@@ -402,7 +387,6 @@
                 margin: auto;
             }
 
-            /* SCHEDULE */
             .schedule-section,
             .activities-section {
                 max-width: 1150px;
@@ -446,7 +430,6 @@
                 background: #35334F;
             }
 
-            /* ACHIEVEMENTS */
             .activities-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -485,7 +468,6 @@
                 font-size: 13px;
             }
 
-            /* FOOTER */
             footer {
                 padding: 35px 20px;
                 text-align: center;
@@ -508,7 +490,6 @@
                 color: #94A3B8;
             }
 
-            /* RESPONSIVE DESIGN */
             @media (max-width: 768px) {
                 .navbar {
                     flex-direction: column;
@@ -581,10 +562,6 @@
                 }
             }
 
-
-
-
-            /* SCHEDULE TABLE */
             .schedule-section table {
                 width: 100%;
                 border-collapse: collapse;
@@ -610,7 +587,6 @@
                 transition: background 0.2s ease;
             }
 
-            /* Thick line between days (on the cells, not the rows) */
             .schedule-section tbody tr:nth-child(5) td,
             .schedule-section tbody tr:nth-child(6) td,
             .schedule-section tbody tr:nth-child(7) td,
@@ -618,12 +594,10 @@
                 border-bottom: 4px solid #73e0c1;
             }
 
-            /* Row hover */
             .schedule-section tbody tr:hover td {
                 background: #356b4b;
             }
 
-            /* ACHIEVEMENT IMAGE BOX */
             .activities-icon {
                 width: 180px;
                 height: 130px;
@@ -644,7 +618,6 @@
                 transition: 0.3s ease;
             }
 
-            /* IMAGE DESIGN */
             .activities-icon img {
                 width: 100%;
                 height: 100%;
@@ -652,7 +625,6 @@
                 border-radius: 7px;
             }
 
-            /* HOVER EFFECT */
             .activities-icon:hover {
                 border-color: #A020F0;
 
@@ -663,7 +635,7 @@
 
                 transform: scale(1.05);
             }
-            /* QUICK ACCESS CONTAINER */
+
             .quick-container {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -673,7 +645,6 @@
                 align-items: stretch;
             }
 
-            /* QUICK ACCESS CARD */
             .quick-card {
                 display: flex;
                 flex-direction: column;
@@ -707,7 +678,6 @@
                 text-decoration: none;
             }
 
-            /* IMAGE BOX */
             .card-icon {
                 width: 100%;
                 height: 170px;
@@ -722,7 +692,6 @@
                 box-shadow: 0 0 12px rgba(0, 245, 255, 0.5);
             }
 
-            /* IMAGE */
             .card-icon img {
                 width: 100%;
                 height: 100%;
@@ -730,14 +699,12 @@
                 border-radius: 7px;
             }
 
-            /* CARD TITLE */
             .quick-card h3 {
                 color: #00F5FF;
                 font-size: 21px;
                 margin-bottom: 12px;
             }
 
-            /* CARD PARAGRAPH */
             .quick-card p {
                 color: #C5C9D8;
                 font-size: 14px;
@@ -745,7 +712,6 @@
                 flex-grow: 1;
             }
 
-            /* CARD LINK */
             .quick-card span {
                 display: inline-block;
                 margin-top: 18px;
@@ -759,7 +725,6 @@
                 font-weight: bold;
             }
 
-            /* HOVER EFFECT */
             .quick-card:hover {
                 transform: translateY(-8px);
                 border-color: #A020F0;
@@ -769,7 +734,6 @@
                     0 0 25px rgba(160, 32, 240, 0.7);
             }
 
-            /* RESPONSIVE DESIGN */
             @media (max-width: 768px) {
                 .quick-container {
                     grid-template-columns: repeat(2, 1fr);
@@ -782,7 +746,6 @@
                 }
             }
 
-        /* ACCESSIBILITY: skip link + visible keyboard focus */
         .skip-link {
             position: absolute;
             left: -999px;
@@ -811,7 +774,6 @@
             outline-offset: 3px;
         }
 
-        /* LOGO TEXT (replaces h1/p in the logo so each page can have one real h1) */
         .logo-title {
             color: #D8B4FE;
             font-size: 25px;
@@ -830,7 +792,6 @@
             font-weight: bold;
         }
 
-        /* h1 in page heroes should look like the old h2 */
         .page-hero h1 {
             font-size: 45px;
             margin: 15px 0;
@@ -840,7 +801,6 @@
             color: #D8B4FE;
         }
 
-        /* REAL BUTTONS (button elements share the link-button look) */
         .btn-button {
             display: inline-block;
             font-family: inherit;
@@ -854,7 +814,6 @@
             background: linear-gradient(120deg, #7C3AED, #A855F7);
         }
 
-        /* CONTACT LAYOUT */
         .contact-section {
             max-width: 1150px;
             margin: auto;
@@ -888,7 +847,6 @@
             margin: 28px 0 10px;
         }
 
-        /* LISTS */
         .contact-list {
             list-style: none;
             margin-bottom: 20px;
@@ -926,7 +884,7 @@
         .faq-list a {
             color: #38BDF8;
         }
-        /* FORM */
+
         .form-group {
             display: flex;
             flex-direction: column;
@@ -983,7 +941,6 @@
             font-size: 13px;
         }
 
-        /* FAQ (details/summary: keyboard accessible by default) */
         .faq-section {
             max-width: 900px;
             margin: auto;
@@ -1028,7 +985,6 @@
     text-decoration: underline;
         }
 
-        /* RESPONSIVE */
         @media (max-width: 768px) {
             .contact-grid {
                 flex-direction: column;

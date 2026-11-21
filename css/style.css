@@ -789,6 +789,12 @@
             font-weight: normal;
             line-height: 1.6;
         }
+       
+           @media (max-width: 450px) {
+               .logo .logo-title {
+                   font-size: 22px;
+               }
+        }
 
         .footer-title {
             color: #D8B4FE;

@@ -535,11 +535,7 @@
                     width: 55px;
                     height: 55px;
                 }
-
-                .logo h1 {
-                    font-size: 22px;
-                }
-
+                       
                 .nav-links {
                     gap: 12px;
                 }
@@ -791,6 +787,7 @@
         }
        
            @media (max-width: 450px) {
+               .logo h1,       
                .logo .logo-title {
                    font-size: 22px;
                }

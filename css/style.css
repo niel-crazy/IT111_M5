@@ -774,16 +774,20 @@
             outline-offset: 3px;
         }
 
-        .logo-title {
+        .logo .logo-title {
+            font-family: Arial, sans-serif;  /* same as body */
             color: #D8B4FE;
             font-size: 25px;
             font-weight: bold;
-            line-height: 1.2;
+            line-height: 1.6;
         }
 
-        .logo-tagline {
+        .logo .logo-tagline {
+            font-family: Arial, sans-serif;  /* same as body */
             color: #CBD5E1;
-            font-size: 12px;
+            font-size: 10px;
+            font-weight: normal;
+            line-height: 1.6;
         }
 
         .footer-title {
